@@ -1,0 +1,44 @@
+.error {
+  &-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-content {
+    width: 400px;
+    padding: 24px;
+    opacity: 1;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &-text {
+    text-align: center;
+    color: red;
+    font-size: 24px;
+  }
+
+  &-close {
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 16px;
+    padding: 8px 24px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(64deg, #07fdfd 0%, #4d69fe 46.88%, #c0f 100%);
+
+    &:hover {
+      opacity: 0.9;
+    }
+
+    &:active {
+      opacity: 0.7;
+    }
+  }
+}

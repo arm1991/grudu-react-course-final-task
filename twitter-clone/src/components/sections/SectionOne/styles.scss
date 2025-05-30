@@ -1,0 +1,45 @@
+.section-one {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.tweet {
+  &-input {
+    flex: 1;
+    border: none;
+    height: 100%;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-size: 1rem;
+    color: #5a5a5a;
+
+    &::placeholder {
+      color: #5a5a5a;
+      text-transform: capitalize;
+      opacity: 0.5;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+
+  &-button {
+    border: none;
+    font-size: 1rem;
+    height: 100%;
+    // width: 20%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .tweet-button {
+    font-size: 14px;
+  }
+}

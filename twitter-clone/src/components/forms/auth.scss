@@ -1,0 +1,15 @@
+.form {
+  height: min-content;
+  width: 360px;
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formButton {
+  min-width: 300px;
+}

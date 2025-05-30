@@ -1,0 +1,42 @@
+{
+  "tweets": [
+    {
+      "id": "1",
+      "author_id": "johnsmith",
+      "author_name": "John Smith",
+      "text": "What are the pros of object-oriented programming?<br><br>Please, explain as if I'm 5."
+    },
+    {
+      "id": "2",
+      "author_id": "carlanotarobot",
+      "author_name": "Carla Notarobot",
+      "text": "Why use a debugger when you can fill your code with hundreds of <code>print()</code> statements?"
+    },
+    {
+      "id": "3",
+      "author_id": "ameliawarner",
+      "author_name": "Amelia Warner",
+      "text": "Describe your relationship with JavaScript with one word."
+    }
+  ],
+  "users": [
+    {
+      "id": "johnsmith",
+      "fullname": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "carlanotarobot",
+      "fullname": "Carla Notarobot",
+      "email": "carlanotarobot@hotmail.com",
+      "password": "password"
+    },
+    {
+      "id": "ameliawarner",
+      "fullname": "Amelia Warner",
+      "email": "ameliawarner@yahoo.com",
+      "password": "password"
+    }
+  ]
+}

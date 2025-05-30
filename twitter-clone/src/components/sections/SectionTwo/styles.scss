@@ -1,0 +1,11 @@
+.section-two {
+  width: 100%;
+}
+
+.tweets-list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

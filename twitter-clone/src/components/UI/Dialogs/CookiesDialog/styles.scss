@@ -1,0 +1,31 @@
+.cookies-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__header {
+    font-size: 28px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+  }
+
+  &__wrapper {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+    top: unset;
+    transform: unset;
+    left: 0;
+    bottom: 0;
+  }
+}

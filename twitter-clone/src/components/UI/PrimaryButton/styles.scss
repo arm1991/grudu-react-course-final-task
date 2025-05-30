@@ -1,0 +1,18 @@
+.primary-button {
+  width: max-content;
+  padding: 16px 24px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  color: #fff;
+  background: linear-gradient(64deg, #07fdfd 0%, #4d69fe 46.88%, #c0f 100%);
+}
+
+.primary-button:hover {
+  opacity: 0.9;
+}
+
+.primary-button:active {
+  opacity: 0.7;
+}

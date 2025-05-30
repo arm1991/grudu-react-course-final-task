@@ -1,0 +1,19 @@
+.dialog-wrapper {
+  cursor: auto;
+  border-radius: 16px;
+  padding: 16px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &__controls {
+    position: relative;
+
+    > button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 24px;
+    }
+  }
+}
