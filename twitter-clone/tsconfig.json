@@ -18,5 +18,5 @@
     "paths": { "@/*": ["./src/*"] }
   },
   "ts-node": { "compilerOptions": { "module": "CommonJS" } },
-  "include": ["src", "twitter-clone/webpack.config.ts", ".eslintrc.js"]
+  "include": ["src", "webpack.config.ts"]
 }

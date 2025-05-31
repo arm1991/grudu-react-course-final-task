@@ -11,12 +11,7 @@ module.exports = {
     'plugin:import/typescript', // this is needed to make the import plugin work with TypeScript
   ],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaFeatures: { jsx: true },
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: './tsconfig.json',
-  },
+  parserOptions: { ecmaFeatures: { jsx: true }, ecmaVersion: 'latest', sourceType: 'module' },
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'import'],
   rules: {
     'prettier/prettier': ['error'],
