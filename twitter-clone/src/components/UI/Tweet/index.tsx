@@ -1,10 +1,12 @@
 import { useDispatch } from 'react-redux';
 import { getInitialsFromFullName } from '@/helpers';
 import { deleteTweet } from '@/store/thunks';
-import { UserIcon, RenderHTML } from '@/components/UI';
 
 import type { ITweet } from '@/interfaces';
 import type { AppDispatch } from '@/store/types';
+
+import RenderHTML from '../RenderHTML';
+import UserIcon from '../UserIcon';
 
 import './styles.scss';
 
